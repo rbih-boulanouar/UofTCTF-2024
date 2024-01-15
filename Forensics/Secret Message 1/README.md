@@ -32,4 +32,4 @@ Person 2: "Agreed. We'll debrief the team about general security, but specifics 
 Person 1: "Sounds like a plan. Let's meet next week for another update."
 Person 2: "Will do. Take care until then."
 ```
-you can clearly see the flag now : uoftctf{fired_for_leaking_secrets_in_a_pdf}
+you can clearly see the flag now : `uoftctf{fired_for_leaking_secrets_in_a_pdf}`
