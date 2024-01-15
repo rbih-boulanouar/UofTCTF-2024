@@ -102,15 +102,15 @@ this file is [google cloud service account key](https://cloud.google.com/iam/doc
 
 lets try if its valid or not. we can do that by installing [Google cloud SDK](https://cloud.google.com/sdk?hl=en) or directly from cloud shell in [Google cloud console](https://console.cloud.google.com/)
 
-by fellowing the steps in GCP documentation we can authenticate gcloud using a service account by using this command
+by following the steps in GCP documentation we can authenticate gcloud using a service account by using this command
 
 `gcloud auth activate-service-account image-server@out-of-the-bucket.iam.gserviceaccount.com  --key-file=funny.json`
 
 notice that we used the email address of the service account (in the `funny.json` file) and the file `funny.json` it self.
 
-after that we need to see what permession we have with this service account.
+after that we need to see what permission we have with this service account.
 
-first we switch to the project provided in in the json file
+first I tried to see if this service account has access to the full project (am not sure if that even possible or if this is the proper way to do it) 
 
 `gcloud config set project out-of-the-bucket`
 
