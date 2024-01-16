@@ -79,7 +79,7 @@ going back to the xml file:
 </ListBucketResult>
 ```
 
-we can see also a json file named `funny.json` in the `secret` directory.
+we can see also a JSON file named `funny.json` in the `secret` directory.
 
 when we access that file we get
 
@@ -102,7 +102,7 @@ this file is [google cloud service account key](https://cloud.google.com/iam/doc
 
 lets try if its valid or not. we can do that by installing [Google cloud SDK](https://cloud.google.com/sdk?hl=en) or directly from cloud shell in [Google cloud console](https://console.cloud.google.com/)
 
-by following the steps in GCP documentation we can authenticate gcloud using a service account by using this command
+by following the steps in GCP documentation we can authenticate GCLOUD using a service account by using this command
 
 `gcloud auth activate-service-account image-server@out-of-the-bucket.iam.gserviceaccount.com  --key-file=funny.json`
 
