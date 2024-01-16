@@ -1,6 +1,8 @@
-# UofTCTF-2024 Challenges Writeups by TheDradBeef
+# UofTCTF-2024 Challenges Writeups by TheDeadBeef
 
 The University of Toronto CTF 13/01/2024
+
+![Alt text](android-chrome-384x384.png)
 
 # Cryptography
 
